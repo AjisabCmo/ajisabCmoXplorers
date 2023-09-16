@@ -1,4 +1,4 @@
-package chapterTwo;
+package ChapterThree;
 
 public class Clock {
     private int hour;

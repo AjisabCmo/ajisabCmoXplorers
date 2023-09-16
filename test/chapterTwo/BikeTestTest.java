@@ -41,7 +41,7 @@ public class BikeTestTest {
         Biker ismailBiker = new Biker();
         ismailBiker.turnOn();
         assertEquals(1,ismailBiker.checkGear());
-        assertEquals(1,ismailBiker.checkSpeed());
+        assertEquals(1,ismailBiker.checkSpeed());  //turn on is set to 1
 
         ismailBiker.accelerateSpeed();
         assertEquals(2,ismailBiker.checkSpeed());

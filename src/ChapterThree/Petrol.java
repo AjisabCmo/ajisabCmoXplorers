@@ -1,6 +1,6 @@
-package chapterTwo;
+package ChapterThree;
 
-import java.util.Scanner;
+import ChapterThree.PetrolPurchase;
 
 public class Petrol{
 

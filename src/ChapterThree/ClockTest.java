@@ -1,5 +1,5 @@
-package chapterTwo;
-import java.util.Scanner;
+package ChapterThree;
+
 public class ClockTest {
   public static void main(String[] args){
 

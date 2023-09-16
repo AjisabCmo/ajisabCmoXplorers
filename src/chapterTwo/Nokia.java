@@ -51,10 +51,865 @@ public class Nokia {
                     chat();
                 case 4:
                     callRegister();
+                case 5:
+                    tones();
+                case 6:
+                    settings();
+                case 7:
+                    callDivert();
+                case 8:
+                    games();
+                case 9:
+                    calculator();
+                case 10:
+                    reminders();
+                case 11:
+                    clock();
+                case 12:
+                    profile();
+                case 13:
+                    simServices();
 
             }
             
 
+    }
+
+    public void simServices() {
+        System.out.println("""
+                press 01 for sim services
+                press 00 for main menu
+                  """);
+        int response = scanner.nextInt();
+        if (response==01){
+            simServices();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void profile() {
+        System.out.println("""
+                press 01 for profile
+                press 00 for main menu
+                  """);
+        int response = scanner.nextInt();
+        if (response==01){
+            profile();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void clock() {
+        System.out.println("""
+                1. Alarm clock
+                2. Clock settings
+                3. Date setting
+                4. Stopwatch
+                5. Countdown timer
+                6. Auto update of date and time
+                """);
+        int response = scanner.nextInt();
+        if (response==1){
+            alarmClock();
+        }
+        if (response==2){
+            clockSettings();
+        }
+        if (response==3){
+            dateSetting();
+        }
+        if (response==4){
+            stopwatch();
+        }
+        if (response==5){
+            countdownTimer();
+        }
+        if (response==6){
+            autoUpdateOfDateAndTime();
+        }
+    }
+
+   public void autoUpdateOfDateAndTime() {
+       System.out.println("""
+                press 01 for clock
+                press 00 for main menu
+                  """);
+       int response = scanner.nextInt();
+       if (response==01){
+           clock();
+       }
+       if (response==00){
+           mainMenu();
+       }else{
+           mainMenu();
+       }
+    }
+
+    public void countdownTimer() {
+       System.out.println("""
+                press 01 for clock
+                press 00 for main menu
+                  """);
+       int response = scanner.nextInt();
+       if (response==01){
+           clock();
+       }
+       if (response==00){
+           mainMenu();
+       }else{
+           mainMenu();
+       }
+    }
+
+    public void stopwatch() {
+        System.out.println("""
+                press 01 for clock
+                press 00 for main menu
+                  """);
+        int response = scanner.nextInt();
+        if (response==01){
+            clock();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void dateSetting() {
+        System.out.println("""
+                press 01 for clock
+                press 00 for main menu
+                  """);
+        int response = scanner.nextInt();
+        if (response==01){
+            clock();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void clockSettings() {
+       System.out.println("""
+                press 01 for clock
+                press 00 for main menu
+                  """);
+       int response = scanner.nextInt();
+       if (response==01){
+          clock();
+       }
+       if (response==00){
+           mainMenu();
+       }else{
+           mainMenu();
+       }
+    }
+
+    public void alarmClock() {
+        System.out.println("""
+                press 01 for clock
+                press 00 for main menu
+                  """);
+        int response = scanner.nextInt();
+        if (response==01){
+            clock();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+
+    }
+
+    public void reminders() {
+        System.out.println("""
+                press 01 for reminders
+                press 00 for main menu
+                  """);
+        int response = scanner.nextInt();
+        if (response==01){
+            reminders();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void calculator() {
+       System.out.println("""
+                press 01 for calculator
+                press 00 for main menu
+                  """);
+       int response = scanner.nextInt();
+       if (response==01){
+           calculator();
+       }
+       if (response==00){
+           mainMenu();
+       }else{
+           mainMenu();
+       }
+    }
+
+    public void games() {
+       System.out.println("""
+                press 01 for games
+                press 00 for main menu
+                  """);
+       int response = scanner.nextInt();
+       if (response==01){
+           games();
+       }
+       if (response==00){
+           mainMenu();
+       }else{
+           mainMenu();
+       }
+    }
+
+    public void callDivert() {
+        System.out.println("""
+                press 01 for call divert
+                press 00 for main menu
+                  """);
+        int response = scanner.nextInt();
+        if (response==01){
+           callDivert();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void settings() {
+        System.out.println("""
+                1.Call settings
+                2.Phone settings
+                3.Security settings
+                4.Restore factory settings
+                           """);
+        int response = scanner.nextInt();
+        if (response==1){
+            callSettings();
+        }
+        if (response==2){
+            phoneSettings();
+        }
+        if (response==3){
+            securitySettings();
+        }
+        if (response==4){
+            restoreFactorySettings();
+        }
+    }
+
+   public void restoreFactorySettings() {
+       System.out.println("""
+                press 01 for settings
+                press 00 for main menu
+                """);
+       int response = scanner.nextInt();
+       if (response==01){
+           settings();
+       }
+       if (response==00){
+           mainMenu();
+       }else{
+           mainMenu();
+       }
+    }
+
+    public void securitySettings() {
+        System.out.println("""
+                1. PIN code request
+                2. Call barring service
+                3. Fixed dialling
+                4. Closed user group
+                5. Phone security
+                6. Change access codes
+                """);
+        int response = scanner.nextInt();
+        if (response==1){
+            pinCodeRequest();
+        }
+        if (response==2){
+            callBarringService();
+        }
+        if (response==3){
+            fixedDialling();
+        }
+        if (response==4){
+            closedUserGroup();
+        }
+        if (response==5){
+            phoneSecurity();
+        }
+        if (response==6){
+            changeAccessCodes();
+        }
+    }
+
+    public void changeAccessCodes() {
+        System.out.println("""
+                press 01 for settings
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            settings();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void phoneSecurity() {
+        System.out.println("""
+                press 01 for settings
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            settings();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void closedUserGroup() {
+       System.out.println("""
+                press 01 for settings
+                press 00 for main menu
+                """);
+       int response = scanner.nextInt();
+       if (response==01){
+           settings();
+       }
+       if (response==00){
+           mainMenu();
+       }else{
+           mainMenu();
+       }
+    }
+
+    public void fixedDialling() {
+        System.out.println("""
+                press 01 for settings
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            settings();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void callBarringService() {
+       System.out.println("""
+                press 01 for settings
+                press 00 for main menu
+                """);
+       int response = scanner.nextInt();
+       if (response==01){
+           settings();
+       }
+       if (response==00){
+           mainMenu();
+       }else{
+           mainMenu();
+       }
+    }
+
+    public void pinCodeRequest() {
+        System.out.println("""
+                press 01 for settings
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            settings();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+
+    }
+
+    public void phoneSettings() {
+        System.out.println("""
+                1. Language
+                2. Cell info display
+                3. Welcome note
+                4. Network selection
+                5. Lights
+                6. Confirm SIM service actions
+                """);
+        int response = scanner.nextInt();
+        if (response==1){
+            language();
+        }
+        if (response==2){
+            cellInfoDisplay();
+        }
+        if (response==3){
+            welcomeNote();
+        }
+        if (response==4){
+            networkSelection();
+        }
+        if (response==5){
+            lights();
+        }
+        if (response==6){
+            confirmSimServiceAction();
+        }
+    }
+
+    public void confirmSimServiceAction() {
+        System.out.println("""
+                press 01 for settings
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            settings();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void lights() {
+        System.out.println("""
+                press 01 for settings
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            settings();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void networkSelection() {
+        System.out.println("""
+                press 01 for settings
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            settings();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void welcomeNote() {
+        System.out.println("""
+                press 01 for settings
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            settings();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void cellInfoDisplay() {
+        System.out.println("""
+                press 01 for settings
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            settings();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void language() {
+        System.out.println("""
+                press 01 for settings
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            settings();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void callSettings() {
+        System.out.println("""
+                1. Automatic redial
+                2. Speed dialling
+                3. Call waiting options
+                4. Own number sending
+                5. Phone line in use
+                6. Automatic answer
+                          """);
+        int response= scanner.nextInt();
+        if (response==1){
+            automaticRedial();
+        }
+        if (response==2){
+            speedDialling();
+        }
+        if (response==3){
+            callWaitingOptions();
+        }
+        if (response==4){
+            ownNumberSending();
+        }
+        if (response==5){
+            phoneLineInUse();
+        }
+        if (response==6){
+            automaticAnswer();
+        }
+    }
+
+    public void automaticAnswer() {
+        System.out.println("""
+                press 01 for settings
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            settings();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void phoneLineInUse() {
+        System.out.println("""
+                press 01 for settings
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            settings();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void ownNumberSending() {
+        System.out.println("""
+                press 01 for settings
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            settings();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+
+    }
+
+    public void callWaitingOptions() {
+        System.out.println("""
+                press 01 for settings
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            settings();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void speedDialling() {
+        System.out.println("""
+                press 01 for settings
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            settings();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+
+    }
+
+    public void automaticRedial() {
+        System.out.println("""
+                press 01 for settings
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            settings();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void tones() {
+        System.out.println("""
+                1. Ringing tone
+                2. Ringing volume
+                3. Incoming call alert
+                4. Composer
+                5. Message alert tone
+                6. Keypad tones
+                7. Warning and game tones
+                8. Vibrating alert
+                9. Screen saver
+                     """);
+        int response = scanner.nextInt();
+        if (response==1){
+            ringingTone();
+        }
+        if (response==2){
+            ringingVolume();
+        }
+        if (response==3){
+            incomingCallAlert();
+        }
+        if (response==4){
+            composer();
+        }
+        if (response==5){
+            messageAlertTone();
+        }
+        if (response==6){
+            keypadTones();
+        }
+        if (response==7){
+            warningAndGameTones();
+        }
+        if (response==8){
+            vibratingAlert();
+        }
+        if(response==9){
+            screenSaver();
+        }
+    }
+
+    public void screenSaver() {
+        System.out.println("""
+                blank
+                press 01 for tones
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            tones();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void vibratingAlert() {
+        System.out.println("""
+                blank
+                press 01 for tones
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            tones();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void warningAndGameTones() {
+        System.out.println("""
+                blank
+                press 01 for tones
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            tones();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void keypadTones() {
+        System.out.println("""
+                blank
+                press 01 for tones
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            tones();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void messageAlertTone() {
+        System.out.println("""
+                blank
+                press 01 for tones
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            tones();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void composer() {
+        System.out.println("""
+                blank
+                press 01 for tones
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            tones();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void incomingCallAlert() {
+        System.out.println("""
+                blank
+                press 01 for tones
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            tones();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void ringingVolume() {
+        System.out.println("""
+                blank
+                press 01 for tones
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+            tones();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
+    }
+
+    public void ringingTone() {
+        System.out.println("""
+                blank
+                press 01 for tones
+                press 00 for main menu
+                """);
+        int response = scanner.nextInt();
+        if (response==01){
+           tones();
+        }
+        if (response==00){
+            mainMenu();
+        }else{
+            mainMenu();
+        }
     }
 
     public void callRegister() {
@@ -985,11 +1840,13 @@ public class Nokia {
                 press 00 for MainMenu
                 """);
         int response= scanner.nextInt();
-        if (response==00) {
-           mainMenu();
-        }
-        if (response == 01) {
+        if (response==01) {
             phoneBook();
+        }
+        if (response == 00) {
+           mainMenu();
+        }else{
+            mainMenu();
         }
 
 
