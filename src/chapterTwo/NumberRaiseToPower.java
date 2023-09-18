@@ -1,6 +1,6 @@
 package chapterTwo;
 import java.util.Scanner;
-public class TakeHomeCoffee {
+public class NumberRaiseToPower{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
