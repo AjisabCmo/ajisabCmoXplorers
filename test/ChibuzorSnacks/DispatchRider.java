@@ -31,7 +31,7 @@ public class DispatchRider {
 
 
     public static void main(String[] args) {
-        int result = calculateDeliveryPay(70);
+        int result = calculateDeliveryPay(25);
 
         System.out.println(result);
     }
