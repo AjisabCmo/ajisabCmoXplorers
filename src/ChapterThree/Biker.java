@@ -25,7 +25,7 @@ public class Biker {
         return isOn;
     }
 
-    void turnOff() {
+    public void turnOff() {
         this.isOn = false;
         this.gear = 0;
         this.speed = 0;
