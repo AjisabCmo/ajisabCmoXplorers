@@ -1,4 +1,4 @@
-package ChibuzorSnacks;
+package chapterSix;
 
 public class Driller {
     public static int numberOfCopies(int numberOfCopies) {

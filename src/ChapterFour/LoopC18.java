@@ -1,4 +1,4 @@
-package chapterTwo;
+package ChapterFour;
 
 public class LoopC18 {
     public static void main(String[] args) {

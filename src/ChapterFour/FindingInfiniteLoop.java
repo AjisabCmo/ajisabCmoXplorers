@@ -1,4 +1,4 @@
-package chapterTwo;
+package ChapterFour;
 
 public class FindingInfiniteLoop{
     public static void main(String[] args) {

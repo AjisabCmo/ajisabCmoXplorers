@@ -1,5 +1,3 @@
-package chapterTwo;
-
 import chapterSix.Driller;
 import org.junit.jupiter.api.Test;
 

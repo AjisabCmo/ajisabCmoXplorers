@@ -1,5 +1,4 @@
-package chapterTwo;
-
+import ChapterThree.Bike;
 
 public class BikeTest {
     public static void main(String[] args) {

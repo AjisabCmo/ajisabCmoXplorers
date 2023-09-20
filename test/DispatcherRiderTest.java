@@ -1,5 +1,3 @@
-package chapterTwo;
-
 import chapterSix.DispatcherRider;
 import org.junit.jupiter.api.Test;
 

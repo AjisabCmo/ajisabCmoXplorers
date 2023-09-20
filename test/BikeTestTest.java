@@ -1,5 +1,4 @@
-package chapterTwo;
-
+import ChapterThree.Biker;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

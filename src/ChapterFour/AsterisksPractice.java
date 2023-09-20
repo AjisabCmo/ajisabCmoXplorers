@@ -1,4 +1,4 @@
-package chapterTwo;
+package ChapterFour;
 
 public class AsterisksPractice {
     public static void main(String[] args) {

@@ -1,5 +1,3 @@
-package chapterTwo;
-
 import ChapterThree.Account;
 import org.junit.jupiter.api.Test;
 
