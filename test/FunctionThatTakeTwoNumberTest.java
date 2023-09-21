@@ -9,8 +9,8 @@ public class FunctionThatTakeTwoNumberTest {
     @Test
     public void testThatTwoNumber() {
         FunctionThatTakeTwoNumber functionThatTakeTwoNumber= new FunctionThatTakeTwoNumber();
-        int result = FunctionThatTakeTwoNumber.twoNumber(2,2);
-        assertEquals(4, result);
+        int result = FunctionThatTakeTwoNumber.twoNumber(-5,-5);
+        assertEquals(25, result);
     }
 
 

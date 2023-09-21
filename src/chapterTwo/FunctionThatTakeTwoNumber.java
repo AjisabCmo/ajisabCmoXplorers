@@ -10,12 +10,19 @@ public class FunctionThatTakeTwoNumber {
 //        return result;
 //    }
 
-        int result = 2;
-        for (int count = 1; count < number1; count++) {
-            for (int digit = 1; digit < number2; digit++) {
-               result +=2;
+        int result = 0;
+
+        if (number1<0)
+            number1=-number1;
+        if (number2<0)
+            number2=-number2;
+
+        for (int count = number1; count >= 1; count--) {
+            result+=number2;
+
+
+
             }
-        }
 
 
         return result;
