@@ -1,4 +1,4 @@
-import chapterTwo.FunctionThatTakeTwoNumber;
+import ChapterFour.FunctionThatTakeTwoNumber;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
