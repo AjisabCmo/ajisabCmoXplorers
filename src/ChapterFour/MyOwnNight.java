@@ -8,7 +8,7 @@ public class MyOwnNight {
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter a number:");
         int number = scanner.nextInt();
-        for ( int index = 15;index >= 10;index--){
+        for ( int index = 10;index >= 10;index--){
             System.out.println("Greater");
         }
     }

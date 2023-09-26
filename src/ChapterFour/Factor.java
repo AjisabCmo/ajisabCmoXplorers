@@ -2,7 +2,7 @@ package ChapterFour;
 
 import java.util.Scanner;
 
-public class MyOwnHotClassCoffee {
+public class Factor {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("enter number of a factor");

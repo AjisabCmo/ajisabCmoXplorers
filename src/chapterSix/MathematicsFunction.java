@@ -35,6 +35,36 @@ public class MathematicsFunction {
 
        }
 
+
         return false;
+    }
+
+    public int factorial(int number) {
+       int factorial=1;
+       for (int digit =1;digit<=number;digit++){
+           factorial*=digit;
+       }
+
+        return factorial;
+    }
+
+    public int factor(int number) {
+      int factor=0;
+      int count =1;
+      for (count=1;count<=number;count++){
+          if (number%count==0){
+              factor++;
+          }
+      }
+        return factor;
+    }
+
+    public boolean evenAndOddNumbers(int number) {
+
+            if (number%2==0){
+                return true;
+
+            }else return false;
+
     }
 }
