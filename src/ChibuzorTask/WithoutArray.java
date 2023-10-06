@@ -35,7 +35,7 @@ public class WithoutArray {
 
 
         System.out.println("the minimum is :" + minimum);
-        double average = (double) total / count;
+        double average = (double) total / 10;
         System.out.println("The average is :" + average);
         System.out.println("the total is :" + total);
 

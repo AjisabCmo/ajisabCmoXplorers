@@ -1,8 +1,7 @@
 import ChibuzorTask.AllAssignment;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class AllAssignmentsTest {
 
@@ -29,6 +28,26 @@ public class AllAssignmentsTest {
     int[] result = allAssignment.reverse(array);
     assertArrayEquals( expected,allAssignment.reverse(array));
 
+}
+
+@Test
+    public void testForElementThatOccur(){
+    AllAssignment allAssignment = new AllAssignment();
+    int [] array ={1,2,3,4,5,6};
+
+
+    boolean result =allAssignment.occur(array);
+    assertTrue(true, String.valueOf(result));
+
+
+}
+@Test
+    public void testForOddPosition(){
+    AllAssignment allAssignment = new AllAssignment();
+    int [] array ={1, 2, 3, 4, 5, 6, 7, 8, 9};
+    int [] expected = {2,4,6,8};
+    int [] result = new int[]{allAssignment.oddPosition(array)};
+    assertEquals(expected,allAssignment.oddPosition(array));
 }
 
 

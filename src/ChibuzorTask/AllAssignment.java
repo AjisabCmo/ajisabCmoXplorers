@@ -82,6 +82,31 @@ public class AllAssignment {
 
         return reverse;
     }
+
+    public boolean occur(int [] array) {
+     for (int element:array){
+      int x=2;
+         if (element==x){
+             return true;
+         }else {
+             return false;
+         }
+
+     }
+
+     return false;
+    }
+
+    public int oddPosition(int [] array) {
+
+        int count=1;
+        for (count = 1; count < array.length; count += 2) {
+   System.out.println(array[count]);
+        }
+
+
+        return count;
+    }
 }
 
 //public static void main(String[] args) {

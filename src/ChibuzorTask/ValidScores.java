@@ -7,8 +7,8 @@ public class ValidScores {
         Scanner scanner = new Scanner(System.in);
        int sum=0;
        int counter=0;
-        System.out.println("enter a score:");
-        int number = scanner.nextInt();
+      //  System.out.println("enter a score:");
+       // int number = scanner.nextInt();
 
 
 

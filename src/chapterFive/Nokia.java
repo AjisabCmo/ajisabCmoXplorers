@@ -15,15 +15,72 @@ public class Nokia {
             System.out.println("""
                     Welcome to nokia
                     press 1 for Main Menu
-                    press # to Quit
+                    press 2 to Quit
                     """);
             int response = scanner.nextInt();
             if (response == 1){
                 mainMenu();
             }
+            if (response == 2){
+                quit();
+
+            }
 
 
             }
+
+    private void quit() {
+        {System.out.println("""
+                1. Phone book
+                2. Messages
+                3. Chat
+                4. Call Register
+                5. Tones
+                6. Settings
+                7. Call Divert
+                8. Games
+                9. Calculator
+                10. Reminders
+                11. Clock
+                12. Profiles
+                13. SIM services
+                        """);
+            int response = scanner.nextInt();
+
+            switch(response){
+                case 1:
+                    phoneBook();
+                case 2:
+                    messages();
+                case 3:
+                    chat();
+                case 4:
+                    callRegister();
+                case 5:
+                    tones();
+                case 6:
+                    settings();
+                case 7:
+                    callDivert();
+                case 8:
+                    games();
+                case 9:
+                    calculator();
+                case 10:
+                    reminders();
+                case 11:
+                    clock();
+                case 12:
+                    profile();
+                case 13:
+                    simServices();
+
+            }
+
+
+        }
+
+    }
 
     public void mainMenu() {System.out.println("""
                 1. Phone book
@@ -79,6 +136,7 @@ public class Nokia {
         System.out.println("""
                 press 01 for sim services
                 press 00 for main menu
+                press 2 for quit
                   """);
         int response = scanner.nextInt();
         if (response==01){
