@@ -15,7 +15,7 @@ public class ArraySnacks {
         int sum =0;
         int count =0;
         for (count =0;count < array.length;count++){
-            if (array[count]%2==1){
+            if (array[count]%2!=0){
                 sum+=array[count];
             }
         }

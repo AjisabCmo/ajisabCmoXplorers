@@ -72,6 +72,39 @@ public class AllAssignment {
         return largest;
     }
 
+    public static int sumOfForloop(int[] array) {
+        int sum=0;
+        int count =0;
+        for (count =0;count< array.length;count++){
+            sum+=array[count];
+        }
+        return sum;
+    }
+
+    public static int sumOfWhileLoop(int[] array) {
+        int sum = 0 ;
+        int count=0;
+        while(count<array.length){
+            sum+=array[count];
+            count++;
+        }
+
+        return sum;
+    }
+
+    public static int sumOfDoWhileLoop(int[] array) {
+        int sum=0;
+        int count = 0 ;
+        do{
+            sum+=array[count];
+            count++;
+
+        }while (count< array.length);
+
+
+        return sum;
+    }
+
     public int[] reverse(int[] array) {
         int length = array.length;
         int [] reverse= new int [length];
@@ -97,11 +130,11 @@ public class AllAssignment {
      return false;
     }
 
-    public int oddPosition(int [] array) {
+    public static int oddPosition(int [] array) {
 
         int count=1;
         for (count = 1; count < array.length; count += 2) {
-   System.out.println(array[count]);
+
         }
 
 

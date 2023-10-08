@@ -49,6 +49,25 @@ public class AllAssignmentsTest {
     int [] result = new int[]{allAssignment.oddPosition(array)};
     assertEquals(expected,allAssignment.oddPosition(array));
 }
+@Test
+    public void testForForLoop(){
+        int [] array ={1,5,4,2};
+        int result=AllAssignment.sumOfForloop(array);
+        assertEquals(12,AllAssignment.sumOfForloop(array));
+}
+@Test
+    public void testForWhileLoop(){
+        int [] array={1,5,4,2};
+        int result=AllAssignment.sumOfWhileLoop(array);
+        assertEquals(12,AllAssignment.sumOfWhileLoop(array));
+}
+@Test
+    public void testForDoWhileLoop(){
+        int [] array = {1,5,4,2} ;
+        int result = AllAssignment.sumOfDoWhileLoop(array);
+        assertEquals(12,result);
+
+}
 
 
 
