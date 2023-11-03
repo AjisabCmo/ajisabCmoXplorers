@@ -6,6 +6,6 @@ public class SumOfEvenNumber {
         for (int count = 0; count <= 10; count += 2) {
                total += count;
         }
-        System.out.println(total);
+        System.out.println("sum of total is : " + total);
     }
 }
