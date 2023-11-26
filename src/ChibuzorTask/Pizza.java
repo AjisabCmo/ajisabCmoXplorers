@@ -7,7 +7,7 @@ public class Pizza {
 
     public static void main(String[] args) {
         Pizza pizza = new Pizza();
-        System.out.println(pizza.superHungry("4"));
+        System.out.println(pizza.superHungry("6"));
     }
 
     public String superHungry(String user){
@@ -29,6 +29,17 @@ public class Pizza {
         }
 
         return user;
+    }
+    public static int bigPizza(int oneBigPizzaPrice){
+
+        return oneBigPizzaPrice * 10;
+    }
+    public static int mediumPizza(int oneMediumPizzaPrice){
+        return oneMediumPizzaPrice * 6;
+    }
+    public static int smallPizza(int oneSmallPizzaPrice){
+
+        return oneSmallPizzaPrice * 4;
     }
 
 }

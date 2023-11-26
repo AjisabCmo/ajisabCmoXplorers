@@ -1,62 +1,63 @@
 package chapterSeven;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class ShoppingCart {
-    public static void main(String[] args) {
-
-    }
 
 
+        private String name;
+        private String productName;
 
-         String name;
-         String userBuy;
+        private double price;
+        private int quantity;
 
-         int pieces;
-
-         double perUnit;
-
-         String addMoreItems;
-
-         String cashierName;
+        private String cashierName;
+        private double subtotal;
 
 
 
-        Scanner scanner = new Scanner(System.in);
-
-    String keepShopping = "y";
-    ShoppingCart cart1 = new ShoppingCart();
-
-
-
-      {
-        System.out.print ("Enter the name of the customer: ");
-        name = scanner.next();
-
-        System.out.print ("Enter what user buy: ");
-        userBuy = scanner.next();
-
-        System.out.print ("Enter the pieces: ");
-        pieces = scanner.nextInt();
-
-        System.out.print("Enter the price per unit: ");
-        perUnit = scanner.nextDouble();
-        System.out.print("Enter add more items: ");
-        addMoreItems= scanner.nextLine();
-        System.out.print("Enter the cashier name :");
-        cashierName= scanner.nextLine();
-
-        cart1.addToCart(name, userBuy, pieces,perUnit,addMoreItems,cashierName);
-        System.out.println(cart1);
-        System.out.print ("Continue shopping (y/n)? ");
-        keepShopping = scanner.next();
-
-    }
-
-    private void addToCart(String name, String userBuy, int pieces, double perUnit, String addMoreItems, String cashierName) {
-    }
+        public static void main(String[] args) {
+                Scanner scanner = new Scanner(System.in);
+                    boolean moreItem = true;
+                System.out.println("enter the customer's name");
+                String name = scanner.next();
 
 
 
 
-    }
+
+                while (moreItem){
+                        System.out.println("what did the user buy");
+                        String userBuy = scanner.next();
+
+                        System.out.println("how many pieces");
+                        int quatity = scanner.nextInt();
+
+                        System.out.println("how much per unit");
+                        double price = scanner.nextDouble();
+                        System.out.print("Do you want to continue buying items? (Yes/No): ");
+                        String  userInput = scanner.next();
+                        if (userInput.equalsIgnoreCase("no"))moreItem = false;
+
+
+                }
+
+
+
+
+
+                System.out.println("cashier name");
+                name = scanner.next();
+             }
+
+        }
+
+
+
+
+
+
+      
+
+   
