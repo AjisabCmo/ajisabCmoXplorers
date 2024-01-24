@@ -8,8 +8,8 @@ public class LoopForTable {
         System.out.println("enter multiplication number:");
         int number = scanner.nextInt();
 
-        for (int count=1;count<=12;count++){
-            System.out.println(number + " * " +count+ " = " + (number *count));
+        for (int count = 1 ; count <= 12 ; count++){
+            System.out.println(number + " * " +count+ " = " + (number * count));
         }
     }
 }

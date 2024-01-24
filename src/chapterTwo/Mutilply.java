@@ -17,10 +17,10 @@ public class Mutilply {
         int doubleNumber = secondNumber *2;
 
      if ( tripled % doubleNumber==0){
-         System.out.println(tripled +" is multiply of "+ doubleNumber);
+         System.out.println(tripled +" is multiply of " + doubleNumber);
 
      }else{
-         System.out.println(tripled +" is not multiply of "+ doubleNumber);
+         System.out.println(tripled +" is not multiply of " + doubleNumber);
      }
     }
 

@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class ShoppingCart {
 
-
+private static Integer discountInput;
         private String name;
         private String productName;
 
@@ -40,7 +40,6 @@ public class ShoppingCart {
                         String  userInput = scanner.next();
                         if (userInput.equalsIgnoreCase("no"))moreItem = false;
 
-
                 }
 
 
@@ -49,9 +48,20 @@ public class ShoppingCart {
 
                 System.out.println("cashier name");
                 name = scanner.next();
+                System.out.println("\nHow much discount will the customer get \n don't give more than 10% discount");
+                String discount = scanner.nextLine();
+             int num = Integer.parseInt(discount);
+                 discountInput = num;
+                if (discount.matches("^\\d+$*")&&  num <= 10){
+                        StoreInfo();
+
+                }
              }
 
+        private static void StoreInfo() {
         }
+
+}
 
 
 

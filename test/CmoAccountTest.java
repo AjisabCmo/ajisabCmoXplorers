@@ -7,12 +7,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 
-public class CmoAccountTest {
+public class  CmoAccountTest {
     private CmoAccount account;
 
     @BeforeEach
     public void setUp() {
-        account = new CmoAccount(1234, "Account name", "0101");
+        account = new CmoAccount("1234", "Account name", "0101");
 
     }
 

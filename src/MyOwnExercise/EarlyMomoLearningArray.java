@@ -3,7 +3,10 @@ package MyOwnExercise;
 import java.util.Scanner;
 
 public class EarlyMomoLearningArray {
+
+
     public static void main(String[] args) {
+
 //        int [][]a = new int[2][];
 //        Scanner scanner = new Scanner(System.in);
 //
@@ -12,7 +15,7 @@ public class EarlyMomoLearningArray {
 //        System.out.printf("enter element of array : ");
 //
 //        for(int count = 0 ; count < size ; count ++){
-        Scanner scanner = new Scanner(System.in);
+//        Scanner scanner = new Scanner(System.in);
 //
 //        int total = 0;
 //        int gradeCounter = 0;
@@ -41,14 +44,15 @@ public class EarlyMomoLearningArray {
 //            System.out.printf("%nTotal grade of %d student %d%n", gradeCounter, total);
 //            System.out.printf("the average is %.2f%n ", average);
 //        }
-        int total = 0;
-        for (int i = 2; i <=20 ; i+=2) {
-            System.out.println(i);
-            total +=i;
+//        int total = 0;
+//        for (int i = 2; i <=20 ; i+=2) {
+//            System.out.println(i);
+//            total +=i;
+//
+//
+//        }
+//        System.out.println("the total is " + total);
 
-
-        }
-        System.out.println("the total is " + total);
 
 
     }

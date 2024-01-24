@@ -5,7 +5,7 @@ public class LearningLoop {
 
         int i = 0;
         while (i <= 100){
-            System.out.print(" " +i );
+            System.out.print(" " + i );
             i++;
         }
 

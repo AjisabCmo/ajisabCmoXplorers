@@ -2,11 +2,12 @@ import chapterSeven.DuplicateNumber;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertArrayEquals;
-import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.testng.AssertJUnit.assertTrue;
 
 
 public class DuplicateNumberTest {
+//    private DuplicateNumber duplicateNumber;
+
 
     @Test
     public void testForDuplicateNumber(){

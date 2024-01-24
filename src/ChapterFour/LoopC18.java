@@ -3,8 +3,8 @@ package ChapterFour;
 public class LoopC18 {
     public static void main(String[] args) {
         int i=0;
-        for ( i = 0;i<3;i++){
-            for (int j=0;j<2;j++){
+        for ( i = 0 ; i < 3 ;i++){
+            for (int j = 0 ; j < 2 ;j++){
 
                 System.out.println(i + " " + j);
             }

@@ -22,7 +22,7 @@ public class MathematicsFunctionTest {
         assertEquals(5,mathematicsFunction.divide(25,5));
     }
     @Test
-    public void testForpalindrome(){
+    public void testForPalindrome(){
         MathematicsFunction mathematicsFunction=new MathematicsFunction();
         boolean result=mathematicsFunction.palindrome(54145);
      assertTrue(true, String.valueOf(result));    }

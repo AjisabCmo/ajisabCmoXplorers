@@ -2,7 +2,7 @@ package chapterTwo;
 
 import java.util.Scanner;
 
-public class chapterTwoPositiveNegativeZero {
+public class ChapterTwoPositiveNegativeZero {
     public static void main(String[] args) {
         Scanner scanner =new Scanner (System.in);
         System.out.println("Enter first number: ");

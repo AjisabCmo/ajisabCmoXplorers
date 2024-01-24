@@ -1,13 +1,15 @@
 package BankApp;
 
+import java.util.ArrayList;
+
 public class CmoAccount {
     private int balance;
 
-    private  int accountNumber;
+    private  String accountNumber;
     private  String accountName;
     private String pin;
 
-    public CmoAccount(int accountNumber, String accountName, String pin) {
+    public CmoAccount(String accountNumber, String accountName, String pin) {
         this.accountNumber = accountNumber;
         this.accountName = accountName;
         this.pin = pin;
@@ -44,5 +46,10 @@ public class CmoAccount {
         }else {
             throw new InvalidAmountException("Amount is greater than zero");
         }
+    }
+
+
+    public String getAccountNumber() {
+        return accountNumber;
     }
 }

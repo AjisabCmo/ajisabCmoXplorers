@@ -15,11 +15,11 @@ public class Divided {
             int divide = (integer) % 3;
 
 
-            if (number%3==0){
+            if (number % 3 == 0){
                 System.out.printf("the divide is %d%n", divide);
             }
 
-            if (number%3!=0){
+            if (number % 3 != 0){
 
                 System.out.printf("the divide is not  %d%n", divide);
 

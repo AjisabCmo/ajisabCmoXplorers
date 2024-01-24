@@ -17,8 +17,10 @@ public class DivisibleLoop {
 //        System.out.println(list);
         for (int i = 0; i < 10; i++) {
             System.out.println(i);
-            if (i % 3 == 0) {
-                System.out.println(i + "divisible by 3");
+//            if (i % 3 == 0) {
+//                System.out.println(i + "divisible by 3");
+            if (i % 2 == 1){
+                System.out.println( i + "odd");
             }
 //
         }
